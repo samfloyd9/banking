@@ -1,7 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { Button } from './ui/button'
 import { PlaidLinkOnSuccess, PlaidLinkOptions, usePlaidLink } from 'react-plaid-link'
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import { createLinkToken, exchangePublicToken } from '@/lib/actions/user.actions';
 import Image from 'next/image';
 
